@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeInfo - Portal de Animes</title>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-src 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📺</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Otomanwai:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1>AnimeInfo</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#news">Novidades</a></li>
+                    <li><a href="#community">Comunidade</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Bem-vindo ao Mundo dos Animes</h2>
+                <p>Descubra as melhores séries e films do mundo anime</p>
+                <button class="cta-button">Explorar Agora</button>
+            </div>
+        </section>
+
+        <!-- Catalog Section -->
+        <section id="catalog" class="catalog-section">
+            <div class="container">
+                <h2>Em Destaque</h2>
+                <div class="anime-grid">
+                    <!-- Anime Card 1 -->
+                    <div class="anime-card">
+                        <div class="anime-image" style="background-image: url('https://images.unsplash.com/photo-1578452487119-7c84cb66f1bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                        <div class="anime-info">
+                            <h3>Attack on Titan</h3>
+                            <span>Ação, Drama</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Anime Card 2 -->
+                    <div class="anime-card">
+                        <div class="anime-image" style="background-image: url('https://images.unsplash.com/photo-1578452487119-7c84cb66f1bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                        <div class="anime-info">
+                            <h3>Demon Slayer</h3>
+                            <span>Ação, Sobrenatural</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Anime Card 3 -->
+                    <div class="anime-card">
+                        <div class="anime-image" style="background-image: url('https://images.unsplash.com/photo-1578452487119-7c84cb66f1bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                        <div class="anime-info">
+                            <h3>Jujutsu Kaisen</h3>
+                            <span>Ação, Escola</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news-section">
+            <div class="container">
+                <h2>Últimas Novidades</h2>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <h3>Nova Temporada de One Piece</h3>
+                        <p>Descubra os novos arcos da saga Egghead.</p>
+                    </div>
+                    <div class="news-card">
+                        <h3>Film de Demon Slayer</h3>
+                        <p>Estreia mundial confirmada para outubro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community-section">
+            <div class="container">
+                <h2>Comunidade</h2>
+                <div class="community-content">
+                    <p>Junte-se à nossa comunidade de fãs!</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Discord</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Reddit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>AnimeInfo</h3>
+                    <p>O melhor portal de informações sobre animes.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#catalog">Catálogo</a></li>
+                        <li><a href="#news">Novidades</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>contato@animeinfo.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 AnimeInfo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
